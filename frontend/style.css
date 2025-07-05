@@ -321,11 +321,12 @@ span {
     align-items: center;
     justify-content: center;
     width: auto;
-    height: auto;
+    height: 70px;
     padding: 15px;
     color: white;
     font-weight: 600;
     font-size: 1rem;
+    border-left: 4px solid #0ef;
 }
 
 .trait-box h3 {
