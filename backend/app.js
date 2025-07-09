@@ -23,6 +23,8 @@ app.get('/download-resume', (req, res) => {
     res.download(filePath, 'Tanmoy_Resume.pdf');
 });
 
-app.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running on http://0.0.0.0:${PORT}`);
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
 });
